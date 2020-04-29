@@ -69,7 +69,7 @@ dotnet add package Microsoft.Extensions.DependencyInjection --version 3.1.3
 ```bash
 dotnet aspnet-codegenerator controller -name PostController -async -api -outDir Controllers
 ```
-
+<!-- 
 ### libman install CORSClient
 ```bash
 libman install jquery@3.2.1 --provider cdnjs --destination wwwroot/scripts/jquery --files jquery.min.js
@@ -95,4 +95,4 @@ dotnet watch run
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details -->
