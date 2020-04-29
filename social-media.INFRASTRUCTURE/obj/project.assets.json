@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "social-media.CORE/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/social-media.CORE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/social-media.CORE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "social-media.CORE/1.0.0": {
+      "type": "project",
+      "path": "../social-media.CORE/social-media.CORE.csproj",
+      "msbuildProject": "../social-media.CORE/social-media.CORE.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "social-media.CORE >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\ProyectosNetCore\\clean-architecture\\social-media.INFRASTRUCTURE\\social-media.INFRASTRUCTURE.csproj",
+      "projectName": "social-media.INFRASTRUCTURE",
+      "projectPath": "D:\\ProyectosNetCore\\clean-architecture\\social-media.INFRASTRUCTURE\\social-media.INFRASTRUCTURE.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\ProyectosNetCore\\clean-architecture\\social-media.INFRASTRUCTURE\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "projectReferences": {
+            "D:\\ProyectosNetCore\\clean-architecture\\social-media.CORE\\social-media.CORE.csproj": {
+              "projectPath": "D:\\ProyectosNetCore\\clean-architecture\\social-media.CORE\\social-media.CORE.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

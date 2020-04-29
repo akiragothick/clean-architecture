@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\social-media.CORE\social-media.CORE.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>social_media.INFRASTRUCTURE</RootNamespace>
+  </PropertyGroup>
+
+</Project>

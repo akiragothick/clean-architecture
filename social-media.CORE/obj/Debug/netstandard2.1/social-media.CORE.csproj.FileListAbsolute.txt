@@ -1,0 +1,9 @@
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\bin\Debug\netstandard2.1\social-media.CORE.deps.json
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\bin\Debug\netstandard2.1\social-media.CORE.dll
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\bin\Debug\netstandard2.1\social-media.CORE.pdb
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\obj\Debug\netstandard2.1\social-media.CORE.csprojAssemblyReference.cache
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\obj\Debug\netstandard2.1\social-media.CORE.csproj.CoreCompileInputs.cache
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\obj\Debug\netstandard2.1\social-media.CORE.AssemblyInfoInputs.cache
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\obj\Debug\netstandard2.1\social-media.CORE.AssemblyInfo.cs
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\obj\Debug\netstandard2.1\social-media.CORE.dll
+D:\ProyectosNetCore\clean-architecture\social-media.CORE\obj\Debug\netstandard2.1\social-media.CORE.pdb

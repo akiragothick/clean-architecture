@@ -1,0 +1,12 @@
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\bin\Debug\netstandard2.1\social-media.INFRASTRUCTURE.deps.json
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\bin\Debug\netstandard2.1\social-media.INFRASTRUCTURE.dll
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\bin\Debug\netstandard2.1\social-media.INFRASTRUCTURE.pdb
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\bin\Debug\netstandard2.1\social-media.CORE.dll
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\bin\Debug\netstandard2.1\social-media.CORE.pdb
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\obj\Debug\netstandard2.1\social-media.INFRASTRUCTURE.csprojAssemblyReference.cache
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\obj\Debug\netstandard2.1\social-media.INFRASTRUCTURE.csproj.CoreCompileInputs.cache
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\obj\Debug\netstandard2.1\social-media.INFRASTRUCTURE.AssemblyInfoInputs.cache
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\obj\Debug\netstandard2.1\social-media.INFRASTRUCTURE.AssemblyInfo.cs
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\obj\Debug\netstandard2.1\social-media.INFRASTRUCTURE.csproj.CopyComplete
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\obj\Debug\netstandard2.1\social-media.INFRASTRUCTURE.dll
+D:\ProyectosNetCore\clean-architecture\social-media.INFRASTRUCTURE\obj\Debug\netstandard2.1\social-media.INFRASTRUCTURE.pdb

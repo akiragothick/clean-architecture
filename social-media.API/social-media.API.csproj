@@ -20,5 +20,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\social-media.CORE\social-media.CORE.csproj" />
+    <ProjectReference Include="..\social-media.INFRASTRUCTURE\social-media.INFRASTRUCTURE.csproj" />
+  </ItemGroup>
+
 
 </Project>

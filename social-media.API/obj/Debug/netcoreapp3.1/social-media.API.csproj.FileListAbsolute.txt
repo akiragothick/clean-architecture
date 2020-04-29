@@ -125,3 +125,7 @@ D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\
 D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\social-media.CORE.dll
+D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\social-media.INFRASTRUCTURE.dll
+D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\social-media.CORE.pdb
+D:\ProyectosNetCore\clean-architecture\social-media.API\bin\Debug\netcoreapp3.1\social-media.INFRASTRUCTURE.pdb

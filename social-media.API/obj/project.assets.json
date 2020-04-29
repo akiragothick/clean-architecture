@@ -2536,6 +2536,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "social-media.CORE/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/social-media.CORE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/social-media.CORE.dll": {}
+        }
+      },
+      "social-media.INFRASTRUCTURE/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "social-media.CORE": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/social-media.INFRASTRUCTURE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/social-media.INFRASTRUCTURE.dll": {}
+        }
       }
     }
   },
@@ -8202,6 +8225,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "social-media.CORE/1.0.0": {
+      "type": "project",
+      "path": "../social-media.CORE/social-media.CORE.csproj",
+      "msbuildProject": "../social-media.CORE/social-media.CORE.csproj"
+    },
+    "social-media.INFRASTRUCTURE/1.0.0": {
+      "type": "project",
+      "path": "../social-media.INFRASTRUCTURE/social-media.INFRASTRUCTURE.csproj",
+      "msbuildProject": "../social-media.INFRASTRUCTURE/social-media.INFRASTRUCTURE.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8211,7 +8244,9 @@
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.3",
       "Microsoft.Extensions.DependencyInjection >= 3.1.3",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.2",
+      "social-media.CORE >= 1.0.0",
+      "social-media.INFRASTRUCTURE >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8243,7 +8278,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\ProyectosNetCore\\clean-architecture\\social-media.CORE\\social-media.CORE.csproj": {
+              "projectPath": "D:\\ProyectosNetCore\\clean-architecture\\social-media.CORE\\social-media.CORE.csproj"
+            },
+            "D:\\ProyectosNetCore\\clean-architecture\\social-media.INFRASTRUCTURE\\social-media.INFRASTRUCTURE.csproj": {
+              "projectPath": "D:\\ProyectosNetCore\\clean-architecture\\social-media.INFRASTRUCTURE\\social-media.INFRASTRUCTURE.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
