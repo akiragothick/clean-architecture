@@ -51,18 +51,31 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 dotnet tool install -g Microsoft.Web.LibraryManager.Cli
 ```
 
-<!--
 ### Step 2
 
 ```bash
+cd social-media.API
 dotnet add package Microsoft.EntityFrameworkCore.Design
-dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+cd ..\social-media.INFRASTRUCTURE
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer.Design
 dotnet add package Microsoft.EntityFrameworkCore.Tools
+``` 
+
+### Step 3 (scaffold)
+
+*Execute script in your database* **Folder /scripts**
+
+```bash
+dotnet ef -s ../social-media.API/social-media.API.csproj dbcontext scaffold "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=SocialMedia;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -o Data
+``` 
+
+```bash
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer.Design
 
 dotnet add package Microsoft.Extensions.DependencyInjection --version 3.1.3
-``` -->
+``` 
 
 ### Create api controller
 
@@ -88,6 +101,7 @@ dotnet watch run
 ```bash
 dotnet watch run
 ```
+-->
 
 ## Authors
 
@@ -95,4 +109,4 @@ dotnet watch run
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details -->
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details 

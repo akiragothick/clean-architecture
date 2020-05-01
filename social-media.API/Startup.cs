@@ -11,7 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using social_media.API.Models.Context;
+using social_media.CORE.Interfaces;
+using social_media.INFRASTRUCTURE.Data;
+using social_media.INFRASTRUCTURE.Repositories;
 
 namespace social_media.API
 {
@@ -27,10 +29,17 @@ namespace social_media.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddJsonOptions(options =>
+              {
+                  options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+                  options.JsonSerializerOptions.IgnoreNullValues = true;
+                  options.JsonSerializerOptions.WriteIndented = true;
+              });
 
-            services.AddDbContext<HealthContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("HealthConnection")));
+            services.AddTransient<IPostRepository, PostRepository>();
+
+            services.AddDbContext<SocialMediaContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("SocialMediaConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
